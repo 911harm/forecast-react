@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import clear from '../access/images/clear.png'
+import {Global} from '../Global'
 
 export default function Hero() {
     const [forecast,setForecast]=useState(false)
@@ -11,7 +12,7 @@ export default function Hero() {
                 setForecast(response)
             }
         };
-        xhttp.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=65ddec2df57701a814f3e6aa34ee8edc&units=metric", true);
+        xhttp.open("GET", `${Global.url}weather?q=Bogota&appid=${Global.key}&units=metric`, true);
         xhttp.send();
 
     }, []);

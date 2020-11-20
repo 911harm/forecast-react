@@ -1,0 +1,36 @@
+// location is other city "Paris Francia" 
+
+.location{
+    box-shadow: -1px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    border-radius:20px;
+    .container{
+        display: flex;
+        justify-content:space-between;
+        .weather{
+            height: 70px;
+            img{
+                margin-top:15px;
+            }
+        }
+        .location-temp{
+            text-align: center;
+            line-height: 70px;
+            font-size: 22px;
+        }
+        .location-city{
+            padding-top: 20px;
+        }
+    }
+    .more-info{
+        font-size: 10px;
+        color: rgba(0, 0, 0, .4);
+        p{
+            margin: 6px;
+        }
+    }
+
+}

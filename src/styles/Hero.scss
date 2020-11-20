@@ -1,0 +1,44 @@
+
+.image-forecast{
+    position:relative;
+    border-radius:2em;
+    width: 80%;
+    margin: 0 auto;
+    background-image:url("../images/img-Bogota.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+.data-forecast{
+    position:absolute;
+    top: 25%;
+    left: 0px;
+}
+.weather{
+    line-height: 0.1px;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 1em;
+    background:$violet-dark;
+    img{
+        margin-top:10px;
+        display: inline-block;
+        width: 55%;
+    }
+    span{
+        color: white;
+        font-size: small;
+    }
+
+}
+.temp{
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    border-radius: 1em;
+    background:$violet;
+}

@@ -1,0 +1,41 @@
+.location {
+  box-shadow: -1px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  align-self: center;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.location .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location .container .weather {
+  height: 70px;
+}
+
+.location .container .weather img {
+  margin-top: 15px;
+}
+
+.location .container .location-temp {
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+}
+
+.location .container .location-city {
+  padding-top: 20px;
+}
+
+.location .more-info {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.location .more-info p {
+  margin: 6px;
+}
+/*# sourceMappingURL=location.css.map */

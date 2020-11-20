@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Global } from '../Global';
 import { windDirection } from '../helpers'
 
 export default function Location() {
@@ -13,7 +14,7 @@ export default function Location() {
                 setForecast(response)
             }
         };
-        xhttp.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=Francia&appid=65ddec2df57701a814f3e6aa34ee8edc&units=metric", true);
+        xhttp.open("GET", `${Global.url}weather?q=Francia&appid=${Global.key}&units=metric`, true);
         xhttp.send();
 
     }, []);

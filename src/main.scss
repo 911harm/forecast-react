@@ -15,9 +15,10 @@ body{
 }
 .app{
     width: 100%;
+
 }
 .wrapper{
-    padding-top: 100px;
+    padding-top: 90px;
     background:#eee;
     max-width:1440px;
     margin:auto;
@@ -193,7 +194,7 @@ justify-content: center;
         }
     }
     .more-info{
-        font-size: small;
+        font-size: 10px;
         color: rgba(0, 0, 0, .4);
         p{
             margin: 8px;

@@ -1,12 +1,8 @@
-//Colors
-$base-color: rgba(225,232,240,1);
-$violet: rgba(131,112,237,1);
-$violet-dark: rgba(49,51,138,1);
-
 root{
     box-sizing: border-box;
 }
 
+@import './styles/Constans.scss';
 @import './styles/location.scss';
 @import './styles/Day.scss';
 @import './styles/Hero.scss';
@@ -49,6 +45,9 @@ justify-content: center;
     .conatiner-bot{
         .days{
             width: 100%;
+            h3{
+                margin: 15px auto;
+            }
             .day{
                 justify-content: center;
                  width: 100%;

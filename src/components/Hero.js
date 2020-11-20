@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import clear from '../access/images/clear.png'
 import {Global} from '../Global'
 
 export default function Hero() {
@@ -18,9 +17,9 @@ export default function Hero() {
     }, []);
     return (
         <div className="Hero">
-            <div className="image-forecast">
+            <div className="image-forecast ">
                 {forecast &&
-                    (<div className="data-forecast">
+                    (<div className="data-forecast data-forecast-before">
                         <div className="weather">
                             <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`} alt="forecast" /><br/>
                             <span>{forecast.weather[0].main}</span>

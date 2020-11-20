@@ -38,7 +38,7 @@ export default function Location() {
                     <div className="container more-info">
                         <p>Humidity {forecast.main.humidity}%</p>
                         <p>{windDirection(forecast.wind.deg)}</p>
-                        <p>{forecast.wind.speed*3.6} km/h</p>
+                        <p>{(forecast.wind.speed*3.6).toFixed(2)} km/h</p>
                     </div>
                 </React.Fragment>
             }

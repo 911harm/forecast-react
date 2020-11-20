@@ -40,7 +40,7 @@ root {
 }
 
 .location .more-info p {
-  margin: 6px;
+  margin: 5px;
 }
 
 .day {
@@ -87,7 +87,12 @@ root {
   font-size: 12px;
 }
 
+.Hero .image-forecast .data-forecast .weather, .Hero .image-forecast .data-forecast .temp {
+  box-shadow: -1px 1px 0px 1px black;
+}
+
 .image-forecast {
+  box-shadow: -2px 2px 5px 1px black;
   position: relative;
   border-radius: 2em;
   width: 80%;
@@ -168,6 +173,9 @@ body {
 @media only screen and (min-width: 300px) and (max-width: 375px) {
   .conatiner-bot .days {
     width: 100%;
+  }
+  .conatiner-bot .days h3 {
+    margin: 15px auto;
   }
   .conatiner-bot .days .day {
     justify-content: center;

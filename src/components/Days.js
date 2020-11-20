@@ -28,8 +28,8 @@ export default function Days() {
 
   return (
     <div className="days">
-      <h3>3 Days Forecast</h3>
-      {/* bucle =? for 3  */}
+      <h3>3 Days <span style={{fontWeight:"400"}}>Forecast</span></h3>
+      
       {forecast &&
         <React.Fragment>
            {/* {forecast.daily.map(i =>(<Day Day={forecast.daily[i]} DayWeek={DayWeek(today.getDay() + i)}></Day>) ).slice(1, 3)}  */}

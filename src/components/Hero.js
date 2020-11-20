@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Global} from '../Global'
+import map from '../access/images/icon-map.png'
 
 export default function Hero() {
     const [forecast,setForecast]=useState(false)
@@ -18,6 +19,8 @@ export default function Hero() {
     return (
         <div className="Hero">
             <div className="image-forecast ">
+                <h1 className="title-bogota">Bogotá</h1>
+                <img id="icon-map" src={map} alt="icon-map"/>
                 {forecast &&
                     (<div className="data-forecast data-forecast-before">
                         <div className="weather">

@@ -14,6 +14,22 @@
   height: 40vh;
 }
 
+.image-forecast .title-bogota {
+  color: #8370ed;
+  text-shadow: -2px 2px 1px black;
+  position: relative;
+  top: 25px;
+  left: 120px;
+}
+
+.image-forecast #icon-map {
+  display: block;
+  position: relative;
+  top: -33px;
+  left: 80px;
+  width: 30px;
+}
+
 .data-forecast {
   position: absolute;
   top: 25%;

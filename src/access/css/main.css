@@ -1,4 +1,4 @@
-root {
+:root {
   box-sizing: border-box;
 }
 
@@ -104,6 +104,8 @@ root {
 }
 
 .image-forecast .title-bogota {
+  display: block;
+  width: 100px;
   color: #8370ed;
   text-shadow: -2px 2px 1px black;
   position: relative;
@@ -113,6 +115,7 @@ root {
 
 .image-forecast #icon-map {
   display: block;
+  width: 40px;
   position: relative;
   top: -33px;
   left: 80px;
@@ -159,11 +162,12 @@ root {
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e1e8f0;
-  width: 100%;
 }
 
 .app {
   width: 100%;
+  padding: auto;
+  margin: auto;
 }
 
 .wrapper {
@@ -171,7 +175,7 @@ body {
   background: #eee;
   max-width: 1440px;
   margin: auto;
-  width: 80%;
+  width: 100%;
   border-radius: 1em;
 }
 
@@ -201,7 +205,6 @@ body {
 
 @media screen and (max-width: 540px) {
   .wrapper {
-    width: 100%;
     padding-top: 50px;
   }
   .wrapper .image-forecast {

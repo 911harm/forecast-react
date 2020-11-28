@@ -21,6 +21,8 @@
     background-position: center;
     height: 40vh;
     .title-bogota{
+        display: block;
+        width: 100px;
         color:$violet;
         text-shadow: -2px 2px 1px black;
         position: relative;
@@ -28,7 +30,8 @@
         left: 120px;
     }
     #icon-map{
-        display: block;
+        display:block;
+        width: 40px;
         position: relative;
         top: -33px;
         left: 80px;

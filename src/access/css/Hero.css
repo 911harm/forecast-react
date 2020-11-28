@@ -15,6 +15,8 @@
 }
 
 .image-forecast .title-bogota {
+  display: block;
+  width: 100px;
   color: #8370ed;
   text-shadow: -2px 2px 1px black;
   position: relative;
@@ -24,6 +26,7 @@
 
 .image-forecast #icon-map {
   display: block;
+  width: 40px;
   position: relative;
   top: -33px;
   left: 80px;

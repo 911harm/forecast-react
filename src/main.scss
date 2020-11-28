@@ -1,4 +1,4 @@
-root{
+:root{
     box-sizing: border-box;
 }
 
@@ -10,10 +10,11 @@ root{
 body{
     font-family: 'Roboto', sans-serif;
     background-color: $base-color;
-    width: 100%;
 }
 .app{
     width: 100%;
+    padding: auto;
+    margin: auto;
 
 }
 .wrapper{
@@ -21,7 +22,7 @@ body{
     background:#eee;
     max-width:1440px;
     margin:auto;
-    width: 80%;
+    width: 100%;
     border-radius: 1em;
 }
 
@@ -57,7 +58,7 @@ justify-content: center;
 }
 @media screen and (max-width:540px){
     .wrapper{
-        width:100%;
+        // width:100%;
         padding-top: 50px;
         .image-forecast{
             height: 30vh;

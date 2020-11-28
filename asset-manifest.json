@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/forecast-react/static/css/main.f4c2b25a.chunk.css",
+    "main.css": "/forecast-react/static/css/main.878dae2f.chunk.css",
     "main.js": "/forecast-react/static/js/main.d797b92f.chunk.js",
     "main.js.map": "/forecast-react/static/js/main.d797b92f.chunk.js.map",
     "runtime-main.js": "/forecast-react/static/js/runtime-main.54b80830.js",
@@ -8,7 +8,7 @@
     "static/js/2.ab96b568.chunk.js": "/forecast-react/static/js/2.ab96b568.chunk.js",
     "static/js/2.ab96b568.chunk.js.map": "/forecast-react/static/js/2.ab96b568.chunk.js.map",
     "index.html": "/forecast-react/index.html",
-    "static/css/main.f4c2b25a.chunk.css.map": "/forecast-react/static/css/main.f4c2b25a.chunk.css.map",
+    "static/css/main.878dae2f.chunk.css.map": "/forecast-react/static/css/main.878dae2f.chunk.css.map",
     "static/js/2.ab96b568.chunk.js.LICENSE.txt": "/forecast-react/static/js/2.ab96b568.chunk.js.LICENSE.txt",
     "static/media/icon-map.aa7d2da1.png": "/forecast-react/static/media/icon-map.aa7d2da1.png",
     "static/media/main.css": "/forecast-react/static/media/img-Bogota.c90addee.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.54b80830.js",
     "static/js/2.ab96b568.chunk.js",
-    "static/css/main.f4c2b25a.chunk.css",
+    "static/css/main.878dae2f.chunk.css",
     "static/js/main.d797b92f.chunk.js"
   ]
 }
